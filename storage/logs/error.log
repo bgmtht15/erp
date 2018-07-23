@@ -1,0 +1,12 @@
+2018-07-23 15:30:15 - PHP Warning:  fopen(D:/Projects/khacdau/storage/cache/cache.catalog.language.1532363415): failed to open stream: No such file or directory in D:\Projects\khacdau\system\library\cache\file.php on line 49
+2018-07-23 15:30:15 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 51
+2018-07-23 15:30:15 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 53
+2018-07-23 15:30:15 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 55
+2018-07-23 15:30:15 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 57
+2018-07-23 15:30:15 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 59
+2018-07-23 15:30:15 - PHP Warning:  fopen(D:/Projects/khacdau/storage/cache/cache.currency.1532363415): failed to open stream: No such file or directory in D:\Projects\khacdau\system\library\cache\file.php on line 49
+2018-07-23 15:30:15 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 51
+2018-07-23 15:30:15 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 53
+2018-07-23 15:30:15 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 55
+2018-07-23 15:30:15 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 57
+2018-07-23 15:30:15 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 59
