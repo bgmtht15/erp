@@ -1,7 +1,7 @@
 <?php
 class ControllerExtensionModuleKhacdau extends Controller {
 	public function index($setting) {
-		$module = 0;
+		$module = rand();
 		$this->load->language('extension/module/khacdau');
 
 		$this->load->model('catalog/product');
