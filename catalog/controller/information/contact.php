@@ -21,7 +21,13 @@ class ControllerInformationContact extends Controller {
 			$mail->setReplyTo($this->request->post['email']);
 			$mail->setSender(html_entity_decode($this->request->post['name'], ENT_QUOTES, 'UTF-8'));
 			$mail->setSubject(html_entity_decode(sprintf($this->language->get('email_subject'), $this->request->post['name']), ENT_QUOTES, 'UTF-8'));
-			$mail->setText($this->request->post['enquiry']);
+			$text = "Hi All, có yêu câu tứ khách hàng với thông tin như sau:
+			Tên: ".html_entity_decode($this->request->post['name'], ENT_QUOTES, 'UTF-8'). "
+			Địa chỉ: ".html_entity_decode($this->request->post['user_address'], ENT_QUOTES, 'UTF-8')."
+			phone: ".html_entity_decode($this->request->post['phone'], ENT_QUOTES, 'UTF-8')."
+			Nội dung: ".$this->request->post['enquiry'];
+
+			$mail->setText($text);
 			$mail->send();
 
 			$this->response->redirect($this->url->link('information/contact/success'));

@@ -300,6 +300,12 @@ class ControllerCatalogCategory extends Controller {
 			$data['error_meta_title'] = array();
 		}
 
+		if (isset($this->error['meta_render_type'])) {
+			$data['error_meta_meta_render_type'] = $this->error['meta_render_type'];
+		} else {
+			$data['error_meta_meta_render_type'] = array();
+		}
+
 		if (isset($this->error['keyword'])) {
 			$data['error_keyword'] = $this->error['keyword'];
 		} else {
@@ -378,6 +384,14 @@ class ControllerCatalogCategory extends Controller {
 			$data['parent_id'] = $category_info['parent_id'];
 		} else {
 			$data['parent_id'] = 0;
+		}
+
+		if (isset($this->request->post['render_type'])) {
+			$data['render_type'] = $this->request->post['render_type'];
+		} elseif (!empty($category_info)) {
+			$data['render_type'] = $category_info['render_type'];
+		} else {
+			$data['render_type'] = '';
 		}
 
 		$this->load->model('catalog/filter');

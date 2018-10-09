@@ -1,0 +1,20 @@
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">
+        <div id="logo">{% if logo %}<a href="{{ home }}"><img src="{{ logo }}" title="{{ name }}" alt="{{ name }}" class="img-responsive" /></a>{% else %}
+          <h1><a href="{{ home }}">{{ name }}</a></h1>
+          {% endif %}</div>
+      </div>
+      <div class="col-sm-4 header-search">{{ search }}</div>
+      <div class="col-sm-3 header-contact-info">
+        <div><i class="fa fa-phone"></i> <span>098 887 89 81</span></div>
+        <div><i class="fa fa-envelope-o"></i><span>thien1988@gmail.com</span></div>
+      </div>
+      <div class="col-sm-3 header-contact-deliver">
+        <div class="icon-center"> <i class="fa fa-truck"></i></div>
+        <div class="text-center"> <span >Giao hang tan noi</span> </div>
+      </div>
+    </div>
+  </div>
+</header>

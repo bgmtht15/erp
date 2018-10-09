@@ -67,9 +67,10 @@ class __TwigTemplate_9fe5ed480804c7f317af98057cf4c4e9a9e527bae0708dd66794176d5c3
         echo (isset($context["module"]) ? $context["module"] : null);
         echo "').swiper({
 \tmode: 'horizontal',
+  effect: 'slide',
 \tslidesPerView: 1,
 \tpagination: '.slideshow";
-        // line 17
+        // line 18
         echo (isset($context["module"]) ? $context["module"] : null);
         echo "',
 \tpaginationClickable: true,
@@ -95,7 +96,7 @@ class __TwigTemplate_9fe5ed480804c7f317af98057cf4c4e9a9e527bae0708dd66794176d5c3
 
     public function getDebugInfo()
     {
-        return array (  73 => 17,  67 => 14,  57 => 7,  53 => 5,  30 => 4,  26 => 3,  22 => 2,  19 => 1,);
+        return array (  74 => 18,  67 => 14,  57 => 7,  53 => 5,  30 => 4,  26 => 3,  22 => 2,  19 => 1,);
     }
 }
 /* <div class="swiper-viewport">*/
@@ -113,6 +114,7 @@ class __TwigTemplate_9fe5ed480804c7f317af98057cf4c4e9a9e527bae0708dd66794176d5c3
 /* <script type="text/javascript"><!--*/
 /* $('#slideshow{{ module }}').swiper({*/
 /* 	mode: 'horizontal',*/
+/*   effect: 'slide',*/
 /* 	slidesPerView: 1,*/
 /* 	pagination: '.slideshow{{ module }}',*/
 /* 	paginationClickable: true,*/

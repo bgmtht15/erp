@@ -43,6 +43,8 @@ class ControllerCommonHeader extends Controller {
 			$data['logo'] = '';
 		}
 
+		$data['serviceImage'] = $server.'image/serviceImage.png';
+
 		$this->load->language('common/header');
 
 		// Wishlist

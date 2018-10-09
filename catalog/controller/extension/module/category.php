@@ -1,6 +1,6 @@
 <?php
 class ControllerExtensionModuleCategory extends Controller {
-	public function index() {
+	public function index($setting) {
 		$this->load->language('extension/module/category');
 
 		if (isset($this->request->get['path'])) {
@@ -12,13 +12,13 @@ class ControllerExtensionModuleCategory extends Controller {
 		if (isset($parts[0])) {
 			$data['category_id'] = $parts[0];
 		} else {
-			$data['category_id'] = 0;
+			$data['category_id'] = -1;
 		}
 
 		if (isset($parts[1])) {
 			$data['child_id'] = $parts[1];
 		} else {
-			$data['child_id'] = 0;
+			$data['child_id'] = -1;
 		}
 
 		$this->load->model('catalog/category');
@@ -27,7 +27,7 @@ class ControllerExtensionModuleCategory extends Controller {
 
 		$data['categories'] = array();
 
-		$categories = $this->model_catalog_category->getCategories(0);
+		$categories = $this->model_catalog_category->getCategories($setting['parent_id']);
 
 		foreach ($categories as $category) {
 			$children_data = array();

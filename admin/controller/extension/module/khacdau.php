@@ -8,6 +8,8 @@ class ControllerExtensionModuleKhacdau extends Controller {
 		$this->document->setTitle($this->language->get('heading_title'));
 
 		$this->load->model('setting/module');
+		$data['user_token'] = $this->session->data['user_token'];
+		$data['category'] = $this->language->get('Category');
 
 		if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) {
 			if (!isset($this->request->get['module_id'])) {
@@ -83,6 +85,17 @@ class ControllerExtensionModuleKhacdau extends Controller {
 			$module_info = $this->model_setting_module->getModule($this->request->get['module_id']);
 		}
 
+		if (isset($this->request->post['parent_id'])) {
+			$data['parent_id'] = $this->request->post['parent_id'];
+			$data['path'] =  $this->request->post['path'];
+		} elseif (!empty($module_info)) {
+			$data['parent_id'] = $module_info['parent_id'];
+			$data['path'] = $module_info['path'];
+		} else {
+			$data['parent_id'] = '0';
+			$data['path'] = '';
+		}
+		
 		if (isset($this->request->post['name'])) {
 			$data['name'] = $this->request->post['name'];
 		} elseif (!empty($module_info)) {

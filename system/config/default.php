@@ -37,7 +37,7 @@ $_['mail_parameter']       = '';
 
 // Cache
 $_['cache_engine']         = 'file'; // apc, file, mem or memcached
-$_['cache_expire']         = 3600;
+$_['cache_expire']         = 0;
 
 // Session
 $_['session_engine']       = 'db';

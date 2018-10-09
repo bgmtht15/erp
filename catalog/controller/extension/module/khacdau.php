@@ -10,8 +10,10 @@ class ControllerExtensionModuleKhacdau extends Controller {
 
 		$data['products'] = array();
 		$data['module'] = $module++;
-
+		$data['moduleName'] = $setting['name'];
+		
 		$filter_data = array(
+			'filter_category_id' => $setting['parent_id'],
 			'sort'  => 'p.date_added',
 			'order' => 'DESC',
 			'start' => 0,

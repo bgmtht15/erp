@@ -8,8 +8,9 @@ class ControllerExtensionModuleSpecial extends Controller {
 		$this->load->model('tool/image');
 
 		$data['products'] = array();
-
+		
 		$filter_data = array(
+			'category_id' => $setting['parent_id'],
 			'sort'  => 'pd.name',
 			'order' => 'ASC',
 			'start' => 0,

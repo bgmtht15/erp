@@ -35,6 +35,12 @@ class ControllerExtensionThemeDefault extends Controller {
 			$data['error_product_description_length'] = '';
 		}
 
+		if (isset($this->error['new_description_length'])) {
+			$data['error_new_description_length'] = $this->error['new_description_length'];
+		} else {
+			$data['error_new_description_length'] = '';
+		}
+
 		if (isset($this->error['image_category'])) {
 			$data['error_image_category'] = $this->error['image_category'];
 		} else {
@@ -158,6 +164,14 @@ class ControllerExtensionThemeDefault extends Controller {
 			$data['theme_default_product_description_length'] = $setting_info['theme_default_product_description_length'];
 		} else {
 			$data['theme_default_product_description_length'] = 100;
+		}
+
+		if (isset($this->request->post['theme_default_new_description_length'])) {
+			$data['theme_default_new_description_length'] = $this->request->post['theme_default_new_description_length'];
+		} elseif (isset($setting_info['theme_default_new_description_length'])) {
+			$data['theme_default_new_description_length'] = $setting_info['theme_default_new_description_length'];
+		} else {
+			$data['theme_default_new_description_length'] = 300;
 		}
 		
 		if (isset($this->request->post['theme_default_image_category_width'])) {

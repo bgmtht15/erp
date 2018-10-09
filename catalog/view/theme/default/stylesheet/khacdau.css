@@ -6,7 +6,39 @@ header {
     padding-top:15px;
 }
 
+.header-contact-info {
+    padding-top: 15px;
+    font-size: 14px;
+}
 
+.header-contact-info i {
+    color:red;
+    padding-right: 15px;
+}
+
+.header-contact-info span {
+    font-weight: bold;
+}
+
+.header-contact-deliver {
+    padding-top:10px;
+}
+
+.header-contact-deliver .icon-center {
+    width:50px;
+    margin: 0 auto;
+    color: red;
+}
+
+.header-contact-deliver .text-center {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header-contact-deliver i {
+    font-size: 20px;
+}
 
 li.level1 {
     position: relative;
@@ -50,9 +82,29 @@ li.level1 {
         border-radius: 4px;
         border: 1px solid #ccc;
     }
+
+    #service_image_web {
+        display:block;
+    }
+
+    #service_image_mobile {
+        display:none;
+    }
 }
 
 @media (max-width: 767px) {
+    #service_image_web {
+        display:none;
+    }
+
+    #service_image_mobile {
+        display:inline-block;
+    }
+
+    #logo img {
+        display: inline-block;
+    }
+
     .dropdown-menu-level-2 {
         position: relative;       
     }
@@ -66,3 +118,61 @@ li.level1 {
     }
 
 }
+
+.full-width {
+    background: red;
+    box-shadow: 0 1px 2px 1px #DFDFDF;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.full-width #menu {
+    margin-bottom: 0px;
+}
+
+.category-item-container {
+    margin-bottom: 5px;
+    background: #FAFAFA;
+}
+.category-item {
+    background-color: red;
+    background-image: url(../image/pin.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    padding-left: 40px;
+    background-position: 5px 4px;
+    display: inline-block;
+    padding-right: 20px;
+}
+.category-item h3 {
+    margin: 0px;
+    position: relative;
+    padding-right: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+.category-item h3::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    right: -34px;
+    width: 29px;
+    height: 28px;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    background: red;
+    transform: rotate(-45deg);
+}
+
+
+.category-item-name {
+    font-size: 21px;
+    line-height: 1.9;
+}
+

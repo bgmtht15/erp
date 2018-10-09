@@ -76,6 +76,19 @@
                 {% endif %}
               </div>
             </div>
+
+          </fieldset>
+          <fieldset>
+            <legend>{{news}}</legend>
+            <div class="form-group required">
+              <label class="col-sm-2 control-label" for="input-new-description-limit"><span data-toggle="tooltip" title="{{ help_new_description_length }}">{{ entry_new_description_length }}</span></label>
+              <div class="col-sm-10">
+                <input type="text" name="theme_default_new_description_length" value="{{ theme_default_new_description_length }}" placeholder="{{ entry_new_description_length }}" id="input-new-description-limit" class="form-control" />
+                {% if error_new_description_length %}
+                <div class="text-danger">{{ error_new_description_length }}</div>
+                {% endif %}
+              </div>
+            </div>
           </fieldset>
           <fieldset>
             <legend>{{ text_image }}</legend>

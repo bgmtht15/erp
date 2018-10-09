@@ -1,7 +1,10 @@
-<h3>{{ heading_title }}</h3>
-moi nhat
-
-<div class="swiper-viewport">
+<div class="category-item-container">
+  <div class="category-item">
+    <h3 class="category-item-name">{{ moduleName }}</h3>
+  </div>
+  
+</div>
+<div class="swiper-viewport no-border">
   <div id="carouselkhacdau{{ module }}" class="swiper-container">
       <div class="swiper-wrapper">
       {% for product in products %}
@@ -41,16 +44,16 @@ moi nhat
 <script type="text/javascript"><!--
 $('#carouselkhacdau{{ module }}').swiper({
 	mode: 'horizontal',
-	slidesPerView: 5,
+	slidesPerView: 4,
 	pagination: '.carouselkhacdau{{ module }}',
 	paginationClickable: true,
 	nextButton: '.swiper-button-next',
     prevButton: '.swiper-button-prev',
 	autoplay: 2500,
-	loop: true
+	loop: false
 });
 --></script>
-
+{#
 giam gia
 <div class="swiper-viewport">
   <div id="carouselkhacdau1{{ module }}" class="swiper-container">
@@ -92,7 +95,7 @@ giam gia
 <script type="text/javascript"><!--
 $('#carouselkhacdau1{{ module }}').swiper({
 	mode: 'horizontal',
-	slidesPerView: 5,
+	slidesPerView: 4,
 	pagination: '.carouselkhacdau1{{ module }}',
 	paginationClickable: true,
 	nextButton: '.swiper-button-next',
@@ -101,3 +104,4 @@ $('#carouselkhacdau1{{ module }}').swiper({
 	loop: true
 });
 --></script>
+#}
