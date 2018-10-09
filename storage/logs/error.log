@@ -1578,3 +1578,106 @@
 2018-10-08 15:26:48 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 57
 2018-10-08 15:26:48 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 59
 2018-10-08 15:28:33 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\Projects\khacdau\system\library\mail\mail.php on line 77
+2018-10-09 15:06:27 - PHP Warning:  unlink(D:/Projects/khacdau/storage/cache/cache.catalog.language.1539097587): Permission denied in D:\Projects\khacdau\system\library\cache\file.php on line 68
+2018-10-09 15:06:27 - PHP Warning:  unlink(D:/Projects/khacdau/storage/cache/cache.currency.1539097587): Permission denied in D:\Projects\khacdau\system\library\cache\file.php on line 68
+2018-10-09 15:12:17 - PHP Warning:  fopen(D:/Projects/khacdau/storage/cache/cache.catalog.language.1539097937): failed to open stream: No such file or directory in D:\Projects\khacdau\system\library\cache\file.php on line 49
+2018-10-09 15:12:17 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 51
+2018-10-09 15:12:17 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 53
+2018-10-09 15:12:17 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 55
+2018-10-09 15:12:17 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 57
+2018-10-09 15:12:17 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 59
+2018-10-09 15:12:17 - PHP Warning:  fopen(D:/Projects/khacdau/storage/cache/cache.currency.1539097937): failed to open stream: No such file or directory in D:\Projects\khacdau\system\library\cache\file.php on line 49
+2018-10-09 15:12:17 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 51
+2018-10-09 15:12:17 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 53
+2018-10-09 15:12:17 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 55
+2018-10-09 15:12:17 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 57
+2018-10-09 15:12:17 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 59
+2018-10-09 15:16:43 - PHP Warning:  fopen(D:/Projects/khacdau/storage/cache/cache.catalog.language.1539098203): failed to open stream: No such file or directory in D:\Projects\khacdau\system\library\cache\file.php on line 49
+2018-10-09 15:16:43 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 51
+2018-10-09 15:16:43 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 53
+2018-10-09 15:16:43 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 55
+2018-10-09 15:16:43 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 57
+2018-10-09 15:16:43 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 59
+2018-10-09 15:16:43 - PHP Warning:  fopen(D:/Projects/khacdau/storage/cache/cache.currency.1539098203): failed to open stream: No such file or directory in D:\Projects\khacdau\system\library\cache\file.php on line 49
+2018-10-09 15:16:43 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 51
+2018-10-09 15:16:43 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 53
+2018-10-09 15:16:43 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 55
+2018-10-09 15:16:43 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 57
+2018-10-09 15:16:43 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 59
+2018-10-09 15:16:43 - PHP Notice:  Undefined index: width in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:16:43 - PHP Notice:  Undefined index: height in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:16:43 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\Projects\khacdau\system\library\image.php on line 169
+2018-10-09 15:16:43 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 177
+2018-10-09 15:16:43 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 180
+2018-10-09 15:16:43 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 182
+2018-10-09 15:16:43 - PHP Notice:  Undefined index: width in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:16:43 - PHP Notice:  Undefined index: height in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:16:43 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\Projects\khacdau\system\library\image.php on line 169
+2018-10-09 15:16:43 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 177
+2018-10-09 15:16:43 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 180
+2018-10-09 15:16:43 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 182
+2018-10-09 15:16:43 - PHP Notice:  Undefined index: width in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:16:43 - PHP Notice:  Undefined index: height in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:16:43 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\Projects\khacdau\system\library\image.php on line 169
+2018-10-09 15:16:43 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 177
+2018-10-09 15:16:43 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 180
+2018-10-09 15:16:43 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 182
+2018-10-09 15:16:43 - PHP Notice:  Undefined index: width in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:16:43 - PHP Notice:  Undefined index: height in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:16:43 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\Projects\khacdau\system\library\image.php on line 169
+2018-10-09 15:16:43 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 177
+2018-10-09 15:16:43 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 180
+2018-10-09 15:16:43 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 182
+2018-10-09 15:17:49 - PHP Notice:  Undefined index: width in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 36
+2018-10-09 15:17:49 - PHP Notice:  Undefined index: height in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 36
+2018-10-09 15:17:49 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\Projects\khacdau\system\library\image.php on line 169
+2018-10-09 15:17:49 - PHP Warning:  imagealphablending() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 172
+2018-10-09 15:17:49 - PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 173
+2018-10-09 15:17:49 - PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 174
+2018-10-09 15:17:49 - PHP Warning:  imagecolortransparent() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 175
+2018-10-09 15:17:49 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 180
+2018-10-09 15:17:49 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 182
+2018-10-09 15:17:49 - PHP Notice:  Undefined index: width in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:17:49 - PHP Notice:  Undefined index: height in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:17:49 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\Projects\khacdau\system\library\image.php on line 169
+2018-10-09 15:17:49 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 177
+2018-10-09 15:17:49 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 180
+2018-10-09 15:17:49 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 182
+2018-10-09 15:17:49 - PHP Notice:  Undefined index: width in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:17:49 - PHP Notice:  Undefined index: height in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:17:49 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\Projects\khacdau\system\library\image.php on line 169
+2018-10-09 15:17:49 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 177
+2018-10-09 15:17:49 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 180
+2018-10-09 15:17:49 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 182
+2018-10-09 15:17:49 - PHP Notice:  Undefined index: width in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:17:49 - PHP Notice:  Undefined index: height in D:\Projects\khacdau\catalog\controller\extension\module\video_details.php on line 34
+2018-10-09 15:17:49 - PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in D:\Projects\khacdau\system\library\image.php on line 169
+2018-10-09 15:17:49 - PHP Warning:  imagecolorallocate() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 177
+2018-10-09 15:17:49 - PHP Warning:  imagefilledrectangle() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 180
+2018-10-09 15:17:49 - PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\image.php on line 182
+2018-10-09 15:20:43 - PHP Notice:  Undefined index: width in D:\Projects\khacdau\admin\controller\extension\module\video_details.php on line 110
+2018-10-09 15:20:43 - PHP Notice:  Undefined index: height in D:\Projects\khacdau\admin\controller\extension\module\video_details.php on line 118
+2018-10-09 15:23:12 - PHP Warning:  fopen(D:/Projects/khacdau/storage/cache/cache.catalog.language.1539098592): failed to open stream: No such file or directory in D:\Projects\khacdau\system\library\cache\file.php on line 49
+2018-10-09 15:23:12 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 51
+2018-10-09 15:23:12 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 53
+2018-10-09 15:23:12 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 55
+2018-10-09 15:23:12 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 57
+2018-10-09 15:23:12 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 59
+2018-10-09 15:23:12 - PHP Warning:  fopen(D:/Projects/khacdau/storage/cache/cache.currency.1539098592): failed to open stream: No such file or directory in D:\Projects\khacdau\system\library\cache\file.php on line 49
+2018-10-09 15:23:12 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 51
+2018-10-09 15:23:12 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 53
+2018-10-09 15:23:12 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 55
+2018-10-09 15:23:12 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 57
+2018-10-09 15:23:12 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 59
+2018-10-09 15:24:30 - PHP Warning:  fopen(D:/Projects/khacdau/storage/cache/cache.catalog.language.1539098670): failed to open stream: No such file or directory in D:\Projects\khacdau\system\library\cache\file.php on line 49
+2018-10-09 15:24:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 51
+2018-10-09 15:24:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 53
+2018-10-09 15:24:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 55
+2018-10-09 15:24:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 57
+2018-10-09 15:24:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 59
+2018-10-09 15:24:30 - PHP Warning:  fopen(D:/Projects/khacdau/storage/cache/cache.currency.1539098670): failed to open stream: No such file or directory in D:\Projects\khacdau\system\library\cache\file.php on line 49
+2018-10-09 15:24:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 51
+2018-10-09 15:24:30 - PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 53
+2018-10-09 15:24:30 - PHP Warning:  fflush() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 55
+2018-10-09 15:24:30 - PHP Warning:  flock() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 57
+2018-10-09 15:24:30 - PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in D:\Projects\khacdau\system\library\cache\file.php on line 59
