@@ -200,7 +200,6 @@ final class Loader {
 		$trigger = $route;
 				
 		$result = $this->registry->get('event')->trigger('language/' . $trigger . '/before', array(&$route, &$key));
-		
 		if ($result && !$result instanceof Exception) {
 			$output = $result;
 		} else {
